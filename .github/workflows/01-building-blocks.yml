@@ -1,0 +1,23 @@
+name: 01 building workflows
+on: push
+workflow_dispatch
+
+jobs:
+ echo-hello:
+ runs-on: ubuntu-latest
+ steps:
+ - run: echo "Hello world"
+ 
+jobs:
+ echo-goodbye:
+ runs-on: ubuntu-latest
+ steps:
+ - run: echo "Good Bye!"
+
+ 
+ 
+  
+
+  
+
+
