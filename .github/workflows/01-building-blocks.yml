@@ -3,15 +3,14 @@ on: push
 
 jobs:
  echo-hello:
- runs-on: ubuntu-latest
- steps:
- - run: echo "Hello world"
+  runs-on: ubuntu-latest
+  steps:
+  - run: echo "Hello world"
  
-jobs:
  echo-goodbye:
- runs-on: ubuntu-latest
- steps:
- - run: echo "Good Bye!"
+  runs-on: ubuntu-latest
+  steps:
+  - run: echo "Good Bye!"
 
  
  
