@@ -1,0 +1,14 @@
+name: Multiline Bash scripts
+on: push
+
+jobs:
+ echo-mutipline:
+  runs-on: ubuntu-latest
+  steps:
+   - run: |
+      echo "I am"
+      echo "multiline"
+      echo "script"
+   
+ 
+ 
