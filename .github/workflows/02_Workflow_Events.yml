@@ -1,0 +1,10 @@
+name: Work Flow Events
+
+on: [push]
+
+jobs:
+   print-trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Trigger Name
+        run: echo "The trigger name is ${{ github.event_name }}"
